@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=delicate.black
+Comment=The transparent flat black theme for fresh look and delicate
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=delicate.black
+MetacityTheme=delicate.black
+IconTheme=Yaru
+ButtonLayout=:minimize,maximize,close
