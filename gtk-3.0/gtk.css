@@ -1404,13 +1404,13 @@ frame > border,
   margin: 0;
   padding: 0;
   border-radius: 0;
-  border: 1px solid rgba(255, 255, 255, 0.2); }
+  border-top: 0.1px solid rgba(0, 0, 0, 0.1); }
   frame > border.flat,
   .frame.flat {
     border-style: none; }
-  frame > border:backdrop,
-  .frame:backdrop {
-    border-color: rgba(192, 192, 192, 0.28); }
+  /* frame > border:backdrop,
+    .frame:backdrop {
+      border-color: rgba(119, 119, 119, 0.28); } */
 
 actionbar > revealer > box {
   padding: 6px;
@@ -2788,12 +2788,12 @@ paned > separator {
   -gtk-icon-source: none;
   border-style: none;
   background-color: transparent;
-  background-image: image(rgba(255, 255, 255, 0.2));
+  background-image: image(rgba(119, 119, 119, 0.05));
   background-size: 1px 1px; }
   paned > separator:selected {
     background-image: image(#00b0ff); }
   paned > separator:backdrop {
-    background-image: image(rgba(192, 192, 192, 0.28)); }
+    background-image: image(rgba(119, 119, 119, 0.05)); }
   paned > separator.wide {
     min-width: 5px;
     min-height: 5px;
