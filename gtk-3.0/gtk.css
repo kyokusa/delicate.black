@@ -62,7 +62,7 @@
 iconview text,
 textview text {
   color: #ffffff;
-  background-color: alpha(#000000, 0.20); }
+  background-color: #000000; }
   .view:backdrop, iconview:backdrop,
   .view text:backdrop,
   iconview text:backdrop,
