@@ -3913,7 +3913,7 @@ switch {
 toolbar {
   -GtkWidget-window-dragging: true;
   padding: 2px;
-  background-color: #F2F2F2;
+  background-color: #00000;
 }
 
 .osd toolbar {
@@ -5529,7 +5529,7 @@ ConversationListView {
 /* text/foreground color of selections */
 @define-color theme_selected_fg_color #f5f5f5;
 /* base background color of disabled widgets */
-@define-color insensitive_bg_color #f2f2f2;
+@define-color insensitive_bg_color #000000;
 /* text foreground color of disabled widgets */
 @define-color insensitive_fg_color #c8c8c8;
 /* disabled text widgets and the like base background color */
