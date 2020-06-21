@@ -379,7 +379,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .modal-dialog {
   border-radius: 8px;
   color: #9b9b9b;
-  background-color: #f5f5f5;
+  background-color: #000000;
   border: none;
   box-shadow: none;
 }
@@ -1093,7 +1093,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
   color: #9b9b9b;
-  background-color: #f5f5f5;
+  background-color: #000000;
   border: none;
   box-shadow: 0 14px 14px rgba(255, 255, 255, 0.25), 0 10px 5px rgba(255, 255, 255, 0.22);
   border-radius: 8px;
@@ -2052,7 +2052,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 8px;
   padding: 7px 8px;
   color: #9b9b9b;
-  background-color: #f5f5f5;
+  background-color: #000000;
   box-shadow: 0 3px 3px rgba(255, 255, 255, 0.1), 0 3px 3px rgba(255, 255, 255, 0.15);
   text-align: center;
   -x-offset: 8px;
@@ -2371,17 +2371,17 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   margin: 5px;
   border-radius: 8px;
   color: #9b9b9b;
-  background-color: #f5f5f5;
+  background-color: #000000;
   border: none;
   box-shadow: 0 3px 3px rgba(255, 255, 255, 0.1), 0 3px 3px rgba(255, 255, 255, 0.15);
 }
 
 .notification-banner:hover {
-  background-color: #f5f5f5;
+  background-color: #000000;
 }
 
 .notification-banner:focus {
-  background-color: #f5f5f5;
+  background-color: #000000;
 }
 
 .notification-banner .notification-icon {
@@ -3103,7 +3103,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #LookingGlassDialog {
-  background-color: #f5f5f5;
+  background-color: #000000;
   spacing: 4px;
   padding: 0;
   border: none;
@@ -3259,7 +3259,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #LookingGlassPropertyInspector {
-  background: #f5f5f5;
+  background: #000000;
   border: none;
   border-radius: 8px;
   padding: 6px;
