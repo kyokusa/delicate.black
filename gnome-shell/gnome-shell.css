@@ -186,6 +186,7 @@ StEntry StLabel.hint-text {
 
 /*slider*/
 .slider{
+<<<<<<< HEAD
   color: rgba(0, 176, 255, 0.95);  
   height: 1em; 
   -barlevel-height: 2px;
@@ -206,6 +207,25 @@ StEntry StLabel.hint-text {
   -slider-handle-radius: 6px;
   -slider-handle-border-width: 0;
   -slider-handle-border-color: #787878;
+=======
+	height: 1em;
+  -barlevel-height: 0.3em;
+  -barlevel-background-color: rgba(0, 0, 0, 0.20);
+  -barlevel-border-width: 1px;
+  -barlevel-border-color: rgba(255, 255, 255, 0.40);
+
+  -barlevel-active-background-color: #00b0ff;
+  -barlevel-active-border-color: #00b0ff;
+
+  -barlevel-overdrive-color: #ff6e03;
+  -barlevel-overdrive-border-color: #ff6e03;
+  -barlevel-overdrive-separator-width: 1px;
+
+  -slider-handle-radius: 6px;
+	-slider-handle-border-width: 1px;
+  -slider-handle-border-color: rgba(41, 123, 255, 0.40);
+	color: rgba(255, 255, 255, 1);
+>>>>>>> 36593dc9562a67a69c1cc4fff60a3437ee9ca85e
 }
 .slider:hover{
   color: #00b0ff; 
@@ -322,12 +342,21 @@ StEntry StLabel.hint-text {
   icon-size: 20px !important;
 }
 .media-message-cover-icon.fallback {
+<<<<<<< HEAD
   color: rgba(255, 255, 255, 1);
   background-color: rgba(255, 255, 255, 1);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 2px;
   icon-size: 16px;
   padding: 8px; 
+=======
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    icon-size: 16px;
+    padding: 8px; 
+>>>>>>> 36593dc9562a67a69c1cc4fff60a3437ee9ca85e
 }
 
 /*scrollbars*/
@@ -1042,6 +1071,7 @@ StScrollBar StButton#hhandle:active{
 }
 
 /*dialogs*/
+/*dialogs*/
 .headline {
   font-size: 15pt;
   font-weight: 500;
@@ -1079,6 +1109,7 @@ StScrollBar StButton#hhandle:active{
   font-weight: normal;
   color: rgba(255, 255, 255, 0.38);
   padding-bottom: .4em;
+<<<<<<< HEAD
 }
 .modal-dialog-linked-button {
   min-height: 40px;
@@ -1135,6 +1166,64 @@ StScrollBar StButton#hhandle:active{
   border-right-width: 0px;
   border-radius: 0px 6px 6px 0;
 }
+=======
+}
+.modal-dialog-linked-button {
+  min-height: 40px;
+  padding: 0 16px;
+  border: none;
+  margin-bottom: 6px;
+  font-size: 10.5pt;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.62);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  icon-shadow: none;
+}
+.modal-dialog-linked-button:hover {
+  color: rgba(255, 255, 255, 0.87);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  icon-shadow: none;
+}
+.modal-dialog-linked-button:active {
+  color: white;
+  background-color: #00b0ff;
+  border-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  icon-shadow: none;
+}
+.modal-dialog-linked-button:insensitive {
+  color: rgba(255, 255, 255, 0.26);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent;
+  box-shadow: none;
+  text-shadow: none;
+  icon-shadow: none;
+}
+.modal-dialog-linked-button:focus {
+  color: #00b0ff;
+  text-shadow: none;
+  icon-shadow: none;
+}
+.modal-dialog-linked-button:focus:active {
+  color: white;
+}
+.modal-dialog-linked-button:first-child {
+  margin-left: 6px;
+  border-radius: 8px 0px 0px 6px;
+}
+.modal-dialog-linked-button:last-child {
+  margin-right: 6px;
+  border-right-width: 0px;
+  border-radius: 0px 6px 6px 0;
+}
+>>>>>>> 36593dc9562a67a69c1cc4fff60a3437ee9ca85e
 .modal-dialog-linked-button:first-child:last-child {
   margin: 0 6px 6px 6px;
   border-right-width: 0px;
@@ -1292,8 +1381,13 @@ StScrollBar StButton#hhandle:active{
   height: 0.4em;
   -barlevel-height: 0.5em;
   -barlevel-background-color: black;
+<<<<<<< HEAD
   -barlevel-border-width: 0;
   -barlevel-border-color: rgba(255, 255, 255, 0.3);
+=======
+  -barlevel-border-width: 1px;
+  -barlevel-border-color: rgba(255, 255, 255, 0.5);
+>>>>>>> 36593dc9562a67a69c1cc4fff60a3437ee9ca85e
   -barlevel-active-background-color: #00b0ff;
   -barlevel-active-border-color: #00b0ff;
   -barlevel-overdrive-color: #ff6e03;
