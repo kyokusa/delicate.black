@@ -16,4 +16,4 @@ Extract the file to the themes directory `/home/USERNAME/.themes`
 
 ### Platform
 
-_Ubuntu 20.04 Focal-Fossa
+_Gnome 40
